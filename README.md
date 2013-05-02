@@ -11,6 +11,7 @@ There are two sets of models:
 
 The models consider pollutants such as CO, hydrocarbon (assume propane), NOx which are the typical pollutants found in the untreated diesel exhaust gas.
 The models consider a thin slice (5mm) monolith structure. This is to approximate the structure as a differential reactor and allow detailed study.
+The models use the oxygen compression mechanisms as proposed by Salomons et al (2007) to account for the high density oxygen phase during the extinction process.
 
 Generally, the:
 - pde_1wc_thin_hc m-files comprise the PDEs that describe the dispersion-advection in the monolith channel, and the diffusion-reaction in the porous washcoat
